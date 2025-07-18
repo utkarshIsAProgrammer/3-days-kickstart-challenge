@@ -1,0 +1,101 @@
+/* Close Button */
+.modal-section {
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.modal-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4rem;
+}
+
+.modal-btn button {
+	background-color: #f0e4d3;
+	border: none;
+	outline: none;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 20px 40px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all ease 0.3s;
+}
+
+.modal-btn button:hover {
+	font-size: 1.1rem;
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+	display: none;
+	max-width: 500px;
+	border-radius: 10px;
+	padding: 20px 40px;
+	margin-top: 2rem;
+	font-size: 1.2rem;
+	font-weight: 500;
+	background-color: #f0e4d3;
+
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+	position: relative;
+	z-index: 1000;
+}
+
+.modal .form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 1.2rem 0 1.2rem 0;
+	width: 100%;
+}
+
+.modal .form input {
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	padding: 0.8rem 1rem;
+	margin-bottom: 1rem;
+	background-color: #faf7f3;
+	font-size: 1rem;
+	width: 100%;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.modal .form .submit-btn {
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	width: 100%;
+	padding: 0.8rem 1rem;
+	font-size: 1rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all ease 0.3s;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.modal .form .submit-btn:hover {
+	background-color: #2f5249;
+	color: #fff;
+}
+
+.modal-btn-hide {
+	display: none;
+}
+
+.modal-visible {
+	display: block;
+}
+
+.overlay-visible {
+	display: block;
+}

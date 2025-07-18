@@ -1,0 +1,28 @@
+/* Navbar and Modal */
+@media screen and (max-width: 768px) {
+	.nav .logo {
+		font-size: 1.5rem;
+		font-weight: 600;
+	}
+
+	.nav-links {
+		display: none;
+		flex-direction: column;
+	}
+
+	.nav .hamburger {
+		display: flex;
+	}
+
+	.nav-links.dropdown-open {
+		display: flex;
+	}
+
+	.modal-btn {
+		margin-top: 10rem;
+	}
+
+	.modal {
+		width: 90%;
+	}
+}
